@@ -1,6 +1,6 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: autumnmoon17/sharathchandrav17.github.io
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -9,77 +9,74 @@ version: 2
 name: Sharath Chandra
 title: Product Manager | Customer Success | AI Solutions
 email: sharathchandra177@gmail.com
-# email_title: Email (Email title override)
 phone: +91-9513863382
-# phone_title: Phone (Phone title override)
 website: https://autumnmoon17.github.io/sharathchandrav17.github.io/
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# twitter_username: yourhandle
+github_username: autumnmoon17
+# stackoverflow_username: "00000001"
+linkedin_username: sharath-chandra-your-id
+# instagram_username: yourhandle
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Senior Customer Success Manager transitioning to Product Management. 
-  5+ years driving AI-powered solutions for enterprise clients. 
-  Expert in LLM-based systems, call analytics, and customer experience optimization.
+# about_profile_image: images/profile.jpg
+about_content: | 
+  Senior Customer Success Manager transitioning to Product Management with 5+ years driving AI-powered solutions for enterprise clients. Expert in LLM-based systems, call analytics, and customer experience optimization.
+  
+  Currently building sophisticated chatbots and analytics systems at ConvoZen AI, managing enterprise accounts like TATA PLAY and TATA AIG. Passionate about leveraging AI to solve real customer problems at scale.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak
         title: AI-Powered Customer Support Chatbot
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link: github.com/yourproject
+        # link_text: View Project
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Built GPT-4o based chatbot for D2C skincare brand with function calling
-          - Handled delivery status, product queries, order management
-          - Implemented quality assurance system with 500+ automated test conversations
-          - Achieved 85% query resolution rate
+          GPT-4o based conversational AI for e-commerce customer support
+        description: | 
+          Built end-to-end chatbot solution for Pilgrim (D2C skincare brand) handling 1000+ daily customer queries
+          - Implemented GPT-4o with function calling for delivery tracking, product recommendations, and order management
+          - Designed comprehensive QA system with 500+ automated test conversations for reliability testing
+          - Achieved 85% query resolution rate with 50% reduction in support tickets
+          - Optimized for WhatsApp with proper formatting and media handling
+          
+          **Technologies:** GPT-4o, Python, Function Calling, WhatsApp API
+          
+      - layout: left
+        border: weak
+        title: Call Center Analytics Platform
+        quote: >
+          Multi-level categorization system for customer experience analysis
+        description: |
+          Designed and implemented comprehensive call analytics framework for enterprise clients (TATA PLAY, TATA AIG, Ketto)
+          - Built L1-L6 categorization hierarchy for customer intent, agent performance, and retention risk analysis
+          - Consolidated 1000+ AI-generated categories into standardized taxonomies for dashboard visualization
+          - Developed complex SQL pipelines for JSON parsing and multi-dimensional analysis in StarRocks
+          - Reduced LLM token costs by 40% through prompt optimization while maintaining evaluation quality
+          
+          **Impact:** Processing 50K+ calls/month with real-time insights for multiple enterprise clients
+          
+          **Technologies:** SQL, StarRocks, LLM Prompting, Metabase, JSON Processing
+          
+      - layout: left
+        title: Voice Bot Infrastructure
+        quote: >
+          Telephony integration and campaign management system
+        description: |
+          Architected voice bot solution for automated customer outreach campaigns
+          - Designed DID number management and telephony integration
+          - Built campaign orchestration system for scheduling and performance tracking
+          - Implemented real-time monitoring and quality assurance workflows
+          
+          **Technologies:** Telephony APIs, Campaign Management, Voice AI
+
   - title: Experience
     layout: list
     content:
@@ -87,39 +84,76 @@ content:
         title: ConvoZen AI
         sub_title: Senior Customer Success Manager
         caption: May 2024 - Present
-        link: Link to company (optional)
+        # link: convozen.ai
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-           - Managed enterprise accounts including TATA PLAY, TATA AIG
-          - Developed sophisticated customer support chatbots using GPT-4o
-          - Implemented complex SQL analytics for call center optimization
-          - Reduced LLM token costs by 40% through prompt optimization
+          Conversational AI startup providing call analytics and voice bot solutions
+        description: |
+          Leading enterprise client relationships and product implementation for AI-powered contact center solutions
+          - Manage accounts including TATA PLAY, TATA AIG, and multiple insurance/e-commerce clients
+          - Design and implement custom LLM-based evaluation frameworks for call quality analysis
+          - Build sophisticated chatbots using GPT-4o with function calling capabilities
+          - Develop complex SQL analytics pipelines for extracting insights from call transcripts
+          - Drive product improvements through customer feedback and usage pattern analysis
+          - Reduced operational costs by 40% through prompt optimization and efficient data processing
+          
+          **Key Achievements:**
+          - Built chatbot achieving 85% query resolution for e-commerce client
+          - Designed multi-level categorization system processing 50K+ calls monthly
+          - Implemented QA automation reducing manual testing time by 80%
+          
+      - layout: right
+        title: Yellow AI
+        sub_title: Customer Success Manager
+        caption: 2022 - 2024
+        description: |
+          Managed enterprise clients for conversational AI platform
+          - Implemented chatbot solutions for banking and e-commerce verticals
+          - Conducted workshops on prompt engineering and AI implementation
+          - Achieved 95% client retention through proactive relationship management
+          
+      - layout: right
+        title: Deloitte USI
+        sub_title: Business Technology Analyst
+        caption: 2020 - 2022
+        description: |
+          Worked on technology consulting projects for enterprise clients
+          - Data analysis and business intelligence solutions
+          - Cross-functional collaboration with product and engineering teams
+          - Client-facing presentations and stakeholder management
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: T A Pai Management Institute
+        sub_title: MBA
+        caption: 2018 - 2020
+        description: |
+          Specialized in Marketing and Business Analytics
+          
+      - layout: top-right
+        title: RV College of Engineering
+        sub_title: B.E. Electronics & Communication
+        caption: 2014 - 2018
+        description: |
+          Strong foundation in technical concepts and problem-solving
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Skills
+    layout: text
+    content: |
+      **Product Management:** User Research, Requirements Gathering, Roadmap Planning, Stakeholder Management, A/B Testing
+      
+      **Technical:** SQL (Advanced), Python, LLM Prompt Engineering, GPT-4o, API Integration, Data Analysis
+      
+      **Tools:** Metabase, StarRocks, Git, Postman, WhatsApp Business API, Telephony Systems
+      
+      **Domain:** Conversational AI, Call Center Analytics, Customer Experience, SaaS, B2B Enterprise
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -128,15 +162,11 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Sharath Chandra
+title: Product Manager | Customer Success | AI Solutions
+email: sharathchandra177@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +91-9513863382
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://autumnmoon17.github.io/sharathchandrav17.github.io/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -52,13 +52,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Senior Customer Success Manager transitioning to Product Management. 
+  5+ years driving AI-powered solutions for enterprise clients. 
+  Expert in LLM-based systems, call analytics, and customer experience optimization.
 
 content:
   - title: Projects # Title for the section
@@ -67,7 +63,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: AI-Powered Customer Support Chatbot
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -80,19 +76,25 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Built GPT-4o based chatbot for D2C skincare brand with function calling
+          - Handled delivery status, product queries, order management
+          - Implemented quality assurance system with 500+ automated test conversations
+          - Achieved 85% query resolution rate
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: ConvoZen AI
+        sub_title: Senior Customer Success Manager
+        caption: May 2024 - Present
         link: Link to company (optional)
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+           - Managed enterprise accounts including TATA PLAY, TATA AIG
+          - Developed sophisticated customer support chatbots using GPT-4o
+          - Implemented complex SQL analytics for call center optimization
+          - Reduced LLM token costs by 40% through prompt optimization
   - title: Education
     layout: list
     content:
